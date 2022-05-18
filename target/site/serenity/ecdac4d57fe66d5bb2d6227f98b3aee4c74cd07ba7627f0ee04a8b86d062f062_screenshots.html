@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Reto Tecnico using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="2e6ffb262f79b68f2a08ca6b5cb77c1887f167182cf8cd8c18ba73f909cfb68b.html">Hospital</a></span>
+                > <span class="truncate-60"><a
+                    href="ecdac4d57fe66d5bb2d6227f98b3aee4c74cd07ba7627f0ee04a8b86d062f062.html">Realizar el Agendamiento de una Cita </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-05-2022 20:29</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Hospital </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                <pre><code>Como paciente
+Quiero realizar la solicitud de una cita médica
+A través del sistema de Administración de Hospitales
+</code></pre>
+
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e0e727b5b6644c8f3cb483e99b843c02eb2334fec16c0b22bee3f4c672b65ca7.html">Scenario
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Realizar el Agendamiento de una Cita
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado que Carlos necesita asistir al medico<br>Cuando el realiza el agendamiento de una Cita<br>Entonces el verifica que se presente en pantalla el mensaje Guardado:</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="0a4335e463ef43a017a9a3e1a2e651730fa65b286f0114ef4b7a0616b1a1a698.png" title="Realizar el Agendamiento de una Cita #1: {diaCita=05/17/2022, documentoPaciente=1001049308, documentoDoctor=1001049309, observaciones=Cita de Medicina General}" width="1366"/>
+                <img src="9f68a865c1ce4663243775fcd34be7f7804d732ebcb633330838b1fbbd708821.png" title="Dado que Carlos necesita asistir al medico" width="1366"/>
+                <img src="9f68a865c1ce4663243775fcd34be7f7804d732ebcb633330838b1fbbd708821.png" title="Carlos opens the Page" width="1366"/>
+                <img src="0a4335e463ef43a017a9a3e1a2e651730fa65b286f0114ef4b7a0616b1a1a698.png" title="Cuando el realiza el agendamiento de una Cita
+| diaCita | documentoPaciente | documentoDoctor | observaciones |
+| 05/17/2022 | 1001049308 | 1001049309 | Cita de Medicina General |" width="1366"/>
+                <img src="327230d0df50834a62b4e818f6379afc471b4b9399b90b6046d8630ec551c582.png" title="Carlos clicks on link to schedule an appointment" width="1366"/>
+                <img src="84fc961fbe661d12addb24e764928b9fcfa0da294739d896653318a7fe1440c5.png" title="Carlos enters '05/17/2022' into where do we write the date of the appointment" width="1366"/>
+                <img src="9fea092fd82b436f71c608e7725363c926649d63da7379abada18472e17b4328.png" title="Carlos enters '1001049308' into where do we write the document number of the patient" width="1366"/>
+                <img src="58d9b890ed4f6379464bcd7b3b2ae0ea5db06b38b7fed44f164de3b7ad853d57.png" title="Carlos enters '1001049309' into where do we write the document number of the doctor" width="1366"/>
+                <img src="c6b50a8f8eb85e8f0969f10aa61ac2b3ac4358aaeb42f57302cee1eddd932c19.png" title="Carlos enters 'Cita de Medicina General' into where do we write the observations of the appointment" width="1366"/>
+                <img src="0a4335e463ef43a017a9a3e1a2e651730fa65b286f0114ef4b7a0616b1a1a698.png" title="Carlos clicks on button to save the information" width="1366"/>
+                <img src="0a4335e463ef43a017a9a3e1a2e651730fa65b286f0114ef4b7a0616b1a1a698.png" title="Entonces el verifica que se presente en pantalla el mensaje Guardado:" width="1366"/>
+                <img src="0a4335e463ef43a017a9a3e1a2e651730fa65b286f0114ef4b7a0616b1a1a698.png" title="Then check: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

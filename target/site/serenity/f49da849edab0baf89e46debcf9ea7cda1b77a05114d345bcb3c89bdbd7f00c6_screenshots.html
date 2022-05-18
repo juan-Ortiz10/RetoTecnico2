@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Reto Tecnico using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="2e6ffb262f79b68f2a08ca6b5cb77c1887f167182cf8cd8c18ba73f909cfb68b.html">Hospital</a></span>
+                > <span class="truncate-60"><a
+                    href="f49da849edab0baf89e46debcf9ea7cda1b77a05114d345bcb3c89bdbd7f00c6.html">Realizar el Registro de un Paciente </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-05-2022 20:29</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Hospital </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                <pre><code>Como paciente
+Quiero realizar la solicitud de una cita médica
+A través del sistema de Administración de Hospitales
+</code></pre>
+
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="0218fdbc5052f69d3f1f3166bb7e2fb1aaba25c78a7c7745c14ed1ccd35fa8dc.html">Scenario2
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Realizar el Registro de un Paciente
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado que Carlos necesita registrar un nuevo paciente<br>Cuando el realiza el registro del mismo en el aplicativo de Administracion de Hospitales<br>Entonces el verifica que se presente en pantalla el mensaje Guardado:</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="c2b6582efcbb2c58119b5894a66d67a12bdd920944e5d27bb2d8bd95d22b4f28.png" title="Realizar el Registro de un Paciente #1: {nombre=Nicol, apellidos=Mateus Rodriguez, telefono=3008149777, tipoDocumento=C&eacute;dula de ciudadan&iacute;a, numeroDocumento=1001049307, tipo=Paciente}" width="1366"/>
+                <img src="9f68a865c1ce4663243775fcd34be7f7804d732ebcb633330838b1fbbd708821.png" title="Dado que Carlos necesita registrar un nuevo paciente" width="1366"/>
+                <img src="9f68a865c1ce4663243775fcd34be7f7804d732ebcb633330838b1fbbd708821.png" title="Carlos opens the Page" width="1366"/>
+                <img src="c2b6582efcbb2c58119b5894a66d67a12bdd920944e5d27bb2d8bd95d22b4f28.png" title="Cuando el realiza el registro del mismo en el aplicativo de Administracion de Hospitales
+| nombre | apellidos | telefono | tipoDocumento | numeroDocumento | tipo |
+| Nicol | Mateus Rodriguez | 3008149777 | C&eacute;dula de ciudadan&iacute;a | 1001049307 | Paciente |" width="1366"/>
+                <img src="3466e0dd8aef8071bfe2d90df13984ac25da4871b6d93c521a2d44ce7ce00d81.png" title="Carlos clicks on link to create a patient" width="1366"/>
+                <img src="12ab713349dfc76cd35d8c790c2b817791fdba693293dfa472dbd8180e7a8469.png" title="Carlos enters 'Nicol' into where do we write the name of the patient" width="1366"/>
+                <img src="a261bad91c14f4d7146950389f8d71eba729ea94de1d830e26f4fdd277e0a3aa.png" title="Carlos enters 'Mateus Rodriguez' into where do we write the last name of the patient" width="1366"/>
+                <img src="3883f475da1ded314ff3d6508e48a43d5ece58c866d0722633b6966ea27ff66a.png" title="Carlos enters '3008149777' into where do we write the phone of the patient" width="1366"/>
+                <img src="f2f3e5f06c56f97b8180e48dad092a4dcd41cc3c2e10de459632cfca8d20bee3.png" title="Carlos select C&eacute;dula de ciudadan&iacute;a on where do we select the type of the document of the patient" width="1366"/>
+                <img src="248591f6d0ceeb137e74b015ad0793e925c765f69bd9e2b963a83929224c7fae.png" title="Carlos enters '1001049307' into where do we write the document of the patient" width="1366"/>
+                <img src="0fd9ccb55732bf1226024349a64481df0daef807aa82d38259ce8d476f5feb23.png" title="Carlos clicks on to check if is prepaid medicine" width="1366"/>
+                <img src="c2b6582efcbb2c58119b5894a66d67a12bdd920944e5d27bb2d8bd95d22b4f28.png" title="Carlos clicks on button to save the information" width="1366"/>
+                <img src="c2b6582efcbb2c58119b5894a66d67a12bdd920944e5d27bb2d8bd95d22b4f28.png" title="Entonces el verifica que se presente en pantalla el mensaje Guardado:" width="1366"/>
+                <img src="c2b6582efcbb2c58119b5894a66d67a12bdd920944e5d27bb2d8bd95d22b4f28.png" title="Then check: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
